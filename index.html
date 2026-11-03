@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pilot First, Protect Always</title>
+<meta name="description" content="A Six Thinking Hats proposal for adopting an AI learning assistant in college classrooms.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top">Pilot First, Protect Always</a>
+  <nav aria-label="Sections">
+    <a href="#case">The case</a>
+    <a href="#hats">Six hats</a>
+    <a href="#plan">The plan</a>
+    <a href="#decision">The decision</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Test the AI learning assistant before the whole college depends on it.</h1>
+      <p class="lead">Our college may adopt a tool that tracks progress, suggests content and alerts faculty about students at risk. It could help many students. It could also misjudge them. This proposal shows how to find out safely.</p>
+      <a class="button" href="#plan">Read the plan</a>
+    </div>
+
+    <div class="desk" id="desk">
+      <h2>An example alert</h2>
+      <p class="alert"><strong>Riya, first year.</strong> Her quiz scores fell for three weeks in a row. The tool says: at risk.</p>
+      <p class="ask">What should happen next?</p>
+      <div class="choices">
+        <button type="button" data-choice="auto">Label her at risk</button>
+        <button type="button" data-choice="human">Send to faculty first</button>
+      </div>
+      <p class="outcome" id="outcome" aria-live="polite">Pick an option to see what happens.</p>
+      <p class="note">An invented example, not real student data.</p>
+    </div>
+  </section>
+
+  <section id="case" class="block">
+    <h2>The case</h2>
+    <div class="two">
+      <p>A tech company is offering an AI-powered learning assistant to our college. It tracks each student’s progress, suggests personalised content and alerts faculty when a student may fall behind. The college is considering using it in every department.</p>
+      <p>The promise is better learning efficiency and academic performance. The worry, from both students and faculty, is data privacy, over-reliance on AI and bias in recommendations. The question is how to adopt the tool while answering those worries.</p>
+    </div>
+  </section>
+
+  <section id="hats" class="block tinted">
+    <h2>Thinking it through with six hats</h2>
+    <p class="intro">Each hat is one way of thinking. We wore them in this order: white, blue, red, black, yellow, green. Select a hat to read what it found.</p>
+    <div class="hats">
+      <div class="tabs" role="tablist" aria-label="Six thinking hats" id="tabs"></div>
+      <div class="panel" role="tabpanel" id="panel" tabindex="0"></div>
+    </div>
+  </section>
+
+  <section id="plan" class="block">
+    <h2>The plan: pilot first, protect always</h2>
+    <p class="intro">The college does not launch everywhere at once. It runs one careful semester and lets the results decide.</p>
+
+    <ol class="timeline">
+      <li><h3>Before launch</h3><p>Pick two departments, one technical and one non-technical. Agree the success measures in writing. Sign privacy terms with the company. Tell students exactly what is collected.</p></li>
+      <li><h3>Weeks one to six</h3><p>The pilot runs with the minimum data: marks and quiz results only. Every alert goes to a faculty member before anything else happens.</p></li>
+      <li><h3>Mid-semester check</h3><p>Compare alert rates across school background and gender. A student and faculty feedback committee meets and shares problems.</p></li>
+      <li><h3>End of semester</h3><p>Data is deleted unless students agree to keep it. Results are compared with the targets. The college then decides.</p></li>
+    </ol>
+
+    <h3 class="sub">Eight safeguards that stay on throughout</h3>
+    <dl class="safeguards">
+      <div><dt>Collect the minimum</dt><dd>Only data that is truly needed. Nothing about habits or typing patterns.</dd></div>
+      <div><dt>Students see first</dt><dd>Each student reads their own report before faculty do, and can ask for corrections.</dd></div>
+      <div><dt>Consent without penalty</dt><dd>Taking part is a choice. Saying no costs nothing.</dd></div>
+      <div><dt>A person decides</dt><dd>An alert only starts a conversation. No label goes on a record.</dd></div>
+      <div><dt>Audit for bias</dt><dd>If one group is flagged far more often, the pilot pauses until the company explains why.</dd></div>
+      <div><dt>Privacy in the contract</dt><dd>The company may not train its other products on college data, and must delete it when the contract ends.</dd></div>
+      <div><dt>Protected tasks</dt><dd>Projects and open discussions stay free of the tool, so independent thinking keeps its place.</dd></div>
+      <div><dt>Delete by default</dt><dd>Old data does not sit around for years waiting to be misused.</dd></div>
+    </dl>
+  </section>
+
+  <section id="decision" class="block tinted">
+    <h2>The decision</h2>
+    <div class="two">
+      <div>
+        <h3>If the targets are met</h3>
+        <p>Expand slowly, one department at a time, and keep every safeguard. Success means flagged students really needed help, students rate the experience well and the bias audit shows no large gaps.</p>
+      </div>
+      <div>
+        <h3>If they are not met</h3>
+        <p>Use the alternative plan. Any one of these can be chosen:</p>
+        <ul>
+          <li>Keep personalised content and switch off risk alerts.</li>
+          <li>Let students use the tool privately, with nothing shared with faculty.</li>
+          <li>Choose another vendor, or build a smaller tool inside the college.</li>
+          <li>Spend the money on more mentors and tutors instead.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub">Four views the plan has to respect</h3>
+    <dl class="views">
+      <div><dt>Students</dt><dd>Want help without being watched.</dd></div>
+      <div><dt>Faculty</dt><dd>Want support without losing their judgement.</dd></div>
+      <div><dt>Administration</dt><dd>Wants better results at a fair cost.</dd></div>
+      <div><dt>The company</dt><dd>Wants wide adoption.</dd></div>
+    </dl>
+    <p class="closing">AI can guide learning. People must guide AI.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Madhvan Veer Singh, PRN 26070122318</p>
+  <p>Critical Thinking assignment: Problem Solving using Six Thinking Hats</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
